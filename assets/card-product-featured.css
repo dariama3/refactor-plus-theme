@@ -1,0 +1,31 @@
+.product-card-wrapper--featured .card__heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.product-card-wrapper--featured .quick-add__submit {
+  background-color: #464b90;
+  border-radius: 30px;
+  color: #ffffff;
+  margin-inline: auto;
+  min-width: 80%;
+  padding: 2rem 0.8rem;
+  width: 80%;
+}
+.product-card-wrapper--featured .quick-add__submit:hover {
+  background-color: #313666;
+}
+.product-card-wrapper--featured .quick-add__submit::after,
+.product-card-wrapper--featured .quick-add__submit:hover::after {
+  box-shadow: none;
+}
+.product-card-wrapper--featured .quick-add__submit-text {
+  align-self: center;
+  display: flex;
+  gap: 0.5rem;
+}
+.product-card-wrapper--featured .quick-add__submit-text .price {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
